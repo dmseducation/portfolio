@@ -1,0 +1,15 @@
+.footer{
+    text-align: center;
+    margin: 0 25px;
+    padding: 5px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 8px;   
+}
+.footer a:hover{
+    color: brown;
+    text-decoration-line: underline;
+}

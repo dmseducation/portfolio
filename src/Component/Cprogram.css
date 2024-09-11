@@ -1,0 +1,39 @@
+.Ccontainer{
+   margin:0 20px;
+   padding: 15px 0;
+   /* border: 1px solid red; */
+}
+.Ccontainer h1{
+   
+    margin: 25px 0;
+    text-align: center;
+    /* border: 1px solid red; */
+ }
+
+ .Ccontainer .CcontainerText .desc{
+    /* border: 1px solid red; */
+
+    font-weight: 600;
+    font-size: 18px;
+    text-align: justify;
+ }
+ .CcontainerDetails{
+    margin: 10px 0;
+ }
+ .CcontainerDetails ol{
+    /* border: 1px solid red; */
+    margin: 0 18px;
+ }
+ .CcontainerDetails ol li{
+    /* border: 1px solid red; */
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(5, 247, 82);
+ }
+ .CcontainerDetails ol p{
+   /* border: 1px solid red; */
+   margin: 10px 0px;
+   font-size: 20px;
+   text-align: justify;
+}

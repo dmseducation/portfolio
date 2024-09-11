@@ -1,0 +1,35 @@
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill-box{
+    width: 400px;
+    box-shadow: 0px 0px 3px 2px rgb(140, 142, 133);
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;  
+}
+.skill .skill-box img{
+    width: 100%;  
+}
+
+.skill .skill-box video{
+     width: 100%;
+       
+}
+.skill .skill-box button{
+    height: 32px;
+    padding: 0 3px;
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .skill-box{
+        width: 90%;
+    }
+}

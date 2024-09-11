@@ -1,0 +1,80 @@
+.programming{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.programming .programming-img{
+    /* border: 1px solid rgb(18, 205, 87); */
+    width: 50%;   
+    background-color:rgb(32, 36, 56);
+    text-align: center;
+    /* box-shadow: 0 0 5px 2px gray; */
+    border-radius: 10px;
+    
+    margin-bottom: 20px;
+}
+
+.programming .programming-img img{
+    margin: 20px;
+    border-radius: 100%;
+    width: 80%;
+    box-shadow: 0 0 2px 5px rgb(45, 45, 49);
+    
+}
+.programming .programming-text{
+    width: 40%;
+    text-align: center;
+    box-shadow: -1px -1px 2px 2px gray;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 400px;
+
+}
+.programming .programming-text div{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.programming .programming-text div select{
+    width: 90%; 
+    height: 45px;  
+    border-radius: 5px; 
+    font-size: 25px;
+    color: rgb(13, 9, 241);
+    
+}
+.programming .programming-text div meter{
+  width: 90%;
+  height: 100px;
+  margin-top: -50px;
+}
+.programming .programming-text div h1{
+    margin-top: -50px;
+  }
+.programmingskill{
+    /* border: 1px solid red; */
+    margin: 25px ;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px white;
+}
+
+.programmingskill .nonprogram{
+    display: none;
+}
+.programmingskill program{
+    display: block;
+}
+  @media screen and (max-width:700px) {
+    .programming-img{
+        display: none;
+    }
+    .programming-text{
+        width: 80% !important;
+    }
+  }

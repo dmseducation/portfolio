@@ -1,0 +1,31 @@
+.about{
+    /* border: 1px solid; */
+    text-align: justify;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 35px; */
+}
+.about h1{
+    text-align: center;
+    margin: 60px 0 40px 0;
+    font-size: 55px;
+}
+
+.about h3{
+    color: rgb(0, 255, 255);
+    font-size: 45px;
+    margin-bottom: 4px;
+    text-decoration:underline;
+}
+.intro{
+    box-shadow: -1px -1px 2px 2px rgb(69, 69, 69);
+    margin: 10px;
+    padding: 15px;
+    /* border: 1px solid; */
+}
+.intro p{
+    font-size: 25px;
+}

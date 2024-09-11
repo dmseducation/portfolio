@@ -1,0 +1,29 @@
+.RContainer{
+    padding: 25px 0;
+    margin: 0 20px;
+}
+.RContainer h1{
+text-align: center;
+margin-bottom: 20px;
+}
+.RContainer p{
+    text-align: justify;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.RContainerText{
+    margin: 0px 25px;
+}
+.RContainerText ol{
+    margin: 20px 2px;
+}
+.RContainerText ol li{
+    font-size: 20px;
+    color: greenyellow;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.RContainerText ol p{
+   font-size: 18px;
+}
